@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/stats/strided/dnancount.h"
+#include "stdlib/blas/ext/base/dnancount.h"
 #include "stdlib/math/base/assert/is_nan.h"
 #include "stdlib/blas/base/shared.h"
 #include "stdlib/strided/base/stride2offset.h"

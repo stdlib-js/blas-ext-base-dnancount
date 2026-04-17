@@ -46,7 +46,7 @@ limitations under the License.
 ## Installation
 
 ```bash
-npm install @stdlib/stats-strided-dnancount
+npm install @stdlib/blas-ext-base-dnancount
 ```
 
 Alternatively,
@@ -66,7 +66,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var dnancount = require( '@stdlib/stats-strided-dnancount' );
+var dnancount = require( '@stdlib/blas-ext-base-dnancount' );
 ```
 
 #### dnancount( N, x, strideX )
@@ -165,7 +165,7 @@ var v = dnancount.ndarray( 4, x, 2, 1 );
 var uniform = require( '@stdlib/random-base-uniform' );
 var filledarrayBy = require( '@stdlib/array-filled-by' );
 var bernoulli = require( '@stdlib/random-base-bernoulli' );
-var dnancount = require( '@stdlib/stats-strided-dnancount' );
+var dnancount = require( '@stdlib/blas-ext-base-dnancount' );
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
@@ -202,7 +202,7 @@ console.log( v );
 ### Usage
 
 ```c
-#include "stdlib/stats/strided/dnancount.h"
+#include "stdlib/blas/ext/base/dnancount.h"
 ```
 
 #### stdlib_strided_dnancount( N, \*X, strideX )
@@ -267,7 +267,7 @@ CBLAS_INT stdlib_strided_dnancount_ndarray( const CBLAS_INT N, const double *X, 
 ### Examples
 
 ```c
-#include "stdlib/stats/strided/dnancount.h"
+#include "stdlib/blas/ext/base/dnancount.h"
 #include <stdint.h>
 #include <stdio.h>
 
@@ -341,19 +341,19 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/stats-strided-dnancount.svg
-[npm-url]: https://npmjs.org/package/@stdlib/stats-strided-dnancount
+[npm-image]: http://img.shields.io/npm/v/@stdlib/blas-ext-base-dnancount.svg
+[npm-url]: https://npmjs.org/package/@stdlib/blas-ext-base-dnancount
 
-[test-image]: https://github.com/stdlib-js/stats-strided-dnancount/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-strided-dnancount/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-ext-base-dnancount/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-ext-base-dnancount/actions/workflows/test.yml?query=branch:main
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-strided-dnancount/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/stats-strided-dnancount?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-dnancount/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-dnancount?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/stats-strided-dnancount.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/stats-strided-dnancount/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-dnancount.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-dnancount/main
 
 -->
 
@@ -367,15 +367,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/stats-strided-dnancount/tree/deno
-[deno-readme]: https://github.com/stdlib-js/stats-strided-dnancount/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/stats-strided-dnancount/tree/umd
-[umd-readme]: https://github.com/stdlib-js/stats-strided-dnancount/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/stats-strided-dnancount/tree/esm
-[esm-readme]: https://github.com/stdlib-js/stats-strided-dnancount/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/stats-strided-dnancount/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/blas-ext-base-dnancount/tree/deno
+[deno-readme]: https://github.com/stdlib-js/blas-ext-base-dnancount/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/blas-ext-base-dnancount/tree/umd
+[umd-readme]: https://github.com/stdlib-js/blas-ext-base-dnancount/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/blas-ext-base-dnancount/tree/esm
+[esm-readme]: https://github.com/stdlib-js/blas-ext-base-dnancount/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/blas-ext-base-dnancount/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-strided-dnancount/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base-dnancount/main/LICENSE
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 

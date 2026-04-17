@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/stats-strided-dnancount",
+  "name": "@stdlib/blas-ext-base-dnancount",
   "version": "0.0.0",
   "description": "Calculate the number of non-NaN elements in a double-precision floating-point strided array.",
   "license": "Apache-2.0",
@@ -35,7 +35,7 @@
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/stdlib-js/stats-strided-dnancount.git"
+    "url": "git://github.com/stdlib-js/blas-ext-base-dnancount.git"
   },
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"

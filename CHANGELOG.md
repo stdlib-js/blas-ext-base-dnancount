@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-13)
+## Unreleased (2026-04-17)
 
 <section class="features">
 
 ### Features
 
--   [`4d1d598`](https://github.com/stdlib-js/stdlib/commit/4d1d598a00b57512d4c0ea62cccafd964904b6b4) - add `stats/strided/dnancount` [(#11316)](https://github.com/stdlib-js/stdlib/pull/11316)
+-   [`4f065eb`](https://github.com/stdlib-js/stdlib/commit/4f065eb18dc8c7038f9f75d7d30991cc9056a770) - add `blas/ext/base/dnancount`
 
 </section>
 
@@ -22,7 +22,7 @@
 
 <details>
 
--   [`4d1d598`](https://github.com/stdlib-js/stdlib/commit/4d1d598a00b57512d4c0ea62cccafd964904b6b4) - **feat:** add `stats/strided/dnancount` [(#11316)](https://github.com/stdlib-js/stdlib/pull/11316) _(by Om-A-osc, Athan Reines)_
+-   [`4f065eb`](https://github.com/stdlib-js/stdlib/commit/4f065eb18dc8c7038f9f75d7d30991cc9056a770) - **feat:** add `blas/ext/base/dnancount` _(by Athan Reines)_
 
 </details>
 
@@ -34,10 +34,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Om-A-osc
 
 </section>
 
